@@ -1,0 +1,147 @@
+2026-06-26T15:54:23.771Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-26T15:54:23.772Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "c:\\Codes\\My Project\\backend",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "17",
+        "targetVersion": "25"
+      }
+    ]
+  }
+}}).
+2026-06-26T15:54:23.773Z [INFO] [Tool.invoke] do invoke.
+2026-06-26T15:54:23.775Z [INFO] Project c:\Codes\My Project\backend is a maven project, try to get java version from pom.xml
+2026-06-26T15:54:23.777Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260626155423,\nSession Dir: c:\\Codes\\My Project\\backend\\.github\\modernize\\java-upgrade\\20260626155423"
+}}).
+2026-06-26T15:54:23.780Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-26T15:54:23.784Z [INFO] Project java version: 17
+2026-06-26T15:54:23.784Z [INFO] Maven project detected.
+2026-06-26T15:54:23.785Z [INFO] Build tool type: mvnw
+2026-06-26T15:54:23.856Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Java\\jdk-17\\bin",
+  "version": "17"
+}
+2026-06-26T15:54:23.856Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-06-26T15:54:23.856Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Java\\jdk-17\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "backend",
+  "dir": "c:\\Codes\\My Project\\backend"
+}
+2026-06-26T15:54:27.012Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-06-26T15:54:27.013Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260626155423"
+}}).
+2026-06-26T15:54:27.013Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-26T15:54:27.013Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-06-26T15:54:27.014Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-06-26T15:54:27.198Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-06-26T15:54:27.199Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260626155423"
+}}).
+2026-06-26T15:54:27.199Z [INFO] [Tool.invoke] do invoke.
+2026-06-26T15:54:27.227Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 17.0.16\n   📁 Path: C:\\Program Files\\Java\\jdk-17\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-06-26T15:54:27.228Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-06-26T15:54:31.214Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-06-26T15:54:31.216Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260626155423"
+}}).
+2026-06-26T15:54:31.220Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-26T15:54:31.227Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-06-26T15:54:31.231Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-06-26T15:54:31.984Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-06-26T15:54:31.984Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20260626155423"
+}}).
+2026-06-26T15:54:31.985Z [INFO] [Tool.invoke] do invoke.
+2026-06-26T15:54:32.003Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-06-26T15:54:32.012Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-06-26T15:54:49.451Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-26T15:54:49.451Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260626155423",
+  "projectPath": "c:\\Codes\\My Project\\backend",
+  "event": "environmentSetup",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Program Files\\Java\\jdk-17\\bin",
+    "buildToolPath": "."
+  }
+}}).
+2026-06-26T15:54:49.452Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-26T15:54:49.452Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-26T15:54:49.453Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-26T15:54:49.528Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-26T15:54:49.528Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260626155423",
+  "projectPath": "c:\\Codes\\My Project\\backend",
+  "event": "environmentSetup",
+  "phase": "execute",
+  "status": "succeeded",
+  "details": {
+    "jdkPath": "C:\\Program Files\\Java\\jdk-17\\bin",
+    "buildToolPath": "."
+  }
+}}).
+2026-06-26T15:54:49.529Z [INFO] [Tool.invoke] do invoke.
+2026-06-26T15:54:49.529Z [INFO] Project c:\Codes\My Project\backend is a maven project, try to get java version from pom.xml
+2026-06-26T15:54:49.531Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260626155423,\nSession Dir: c:\\Codes\\My Project\\backend\\.github\\modernize\\java-upgrade\\20260626155423"
+}}).
+2026-06-26T15:54:49.531Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-26T15:54:49.532Z [INFO] Project java version: 17
+2026-06-26T15:54:49.533Z [INFO] Maven project detected.
+2026-06-26T15:54:49.534Z [INFO] Build tool type: mvnw
+2026-06-26T15:54:49.534Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Java\\jdk-17\\bin",
+  "version": "17"
+}
+2026-06-26T15:54:49.535Z [INFO] Build tool: {
+  "name": "mvnw",
+  "path": ".",
+  "version": ""
+}
+2026-06-26T15:54:49.535Z [INFO] Project config: {
+  "buildTool": {
+    "path": ".",
+    "name": "mvnw",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Java\\jdk-17\\bin",
+    "name": "java",
+    "version": "17"
+  },
+  "name": "backend",
+  "dir": "c:\\Codes\\My Project\\backend"
+}
