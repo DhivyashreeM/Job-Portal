@@ -6,6 +6,9 @@ Job Portal is a full-stack web application designed to simplify the recruitment 
 
 The application is built using a **React + TypeScript** frontend and a **Spring Boot** backend, following a RESTful architecture. It uses **JWT (JSON Web Token)** for secure authentication and authorization, ensuring that only authorized users can access protected resources.
 
+<img width="1918" height="1096" alt="image" src="https://github.com/user-attachments/assets/cecb5593-153d-424e-be6c-48d41ecd4caa" />
+
+
 ---
 
 ## Features
